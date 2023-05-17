@@ -1,20 +1,21 @@
-<div id="topbar" class="d-flex align-items-center fixed-top">
+<!-- <div id="topbar" class="d-flex align-items-center fixed-top">
   <div class="container d-flex justify-content-between">
     <div class="contact-info d-flex align-items-center">
+      <i class="bi bi-telephone-fill"></i> 0 212 508 20 21
       <i class="bi bi-geo-alt-fill"></i> Nine Hatun Mah. Mercan Cad. No: 29-A Esenler/İstanbul
     </div>
     <div class="d-none d-lg-flex contact-info align-items-center">
-      <i class="bi bi-telephone-fill"></i> 0 212 508 20 21
     </div>
   </div>
-</div>
+</div> -->
 
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
-    <h1 class="logo me-auto"><a href="#">Özel Esenler Sağlık Kabini</a></h1>
+    <img src="../assets/img/text-logo-3.svg" class="logo me-auto" alt="">
+    <!-- <h1 class="logo me-auto"><a href="#">Özel Esenler Sağlık Kabini</a></h1> -->
     <nav id="navbar" class="navbar order-last order-lg-0">
       <ul>
-        <li><a class="nav-link scrollto active" href="#hero">Ana Sayfa</a></li>
+        <li><a class="nav-link scrollto active" href="#carousel">Ana Sayfa</a></li>
         <li><a class="nav-link scrollto" href="#about">Hakkımızda</a></li>
         <li><a class="nav-link scrollto" href="#services">Hizmetlerimiz</a></li>
         <li><a class="nav-link scrollto" href="#gallery">Galeri</a></li>
@@ -25,43 +26,89 @@
   </div>
 </header>
 
-<section id="hero" class="d-flex align-items-center">
-  <div class="container">
-    <h1>Özel Esenler Sağlık Kabini İnternet Sitesine Hoş Geldiniz!</h1>
-    <h2>Siz değerli hastalarımızın bizlere daha kolay ulaşabilmesi ve tanıyabilmesi için baştan aşağı yenilenen internet sitemizi paylaşmaktan mutluluk duyuyoruz!</h2>
+<div id="carousel" style="top: 80px" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+      aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-</section>
+  <div class="carousel-inner">
+    <div class="carousel-item active text-center">
+      <img src="../assets/img/slide/slide-11.jpg" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Özel Esenler Sağlık Kabini İnternet Sitesine Hoş Geldiniz!</h3>
+        <p>Siz değerli hastalarımızın bizlere daha kolay ulaşabilmesi ve tanıyabilmesi için baştan aşağı yenilenen
+          internet sitemizi paylaşmaktan mutluluk duyuyoruz!</p>
+      </div>
+    </div>
+    <div class="carousel-item text-center">
+      <img src="../assets/img/slide/slide-22.jpg" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Steril Tedavi Odamızla Hizmetinizdeyiz!</h3>
+        <p>Kıymetli hastalarımızın konforunu göz önünde bulundurarak hazırladığımız tedavi odamızda sizlere üst düzey
+          bir sağlık hizmeti sunmayı hedefliyoruz.</p>
+      </div>
+    </div>
+    <div class="carousel-item text-center">
+      <img src="../assets/img/slide/slide-33.jpg" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Hasta Yakınlarımızı da Düşündük, Ferah Bir Bekleme Odası Hazırladık!</h3>
+        <p>Sevdiklerinizin tedavisi yapılırken sizler de aydınlık ve ferah bekleme salonumuzda keyifli dakikalar
+          geçirebilirsiniz.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- <section id="hero" class="d-flex align-items-center">
+  <div class="container">
+    <h1>Özel Esenler Sağlık Kabini <br> İnternet Sitesine Hoş Geldiniz!</h1>
+    <h2>Siz değerli hastalarımızın bizlere daha kolay ulaşabilmesi ve <br> tanıyabilmesi için baştan aşağı yenilenen internet sitemizi <br> paylaşmaktan mutluluk duyuyoruz!</h2>
+  </div>
+</section> -->
 
 <main id="main">
   <section id="featured-services" class="featured-services">
     <div class="container" data-aos="fade-up">
       <div class="row">
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="col-md-12 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="fa-solid fa-house-medical"></i></div>
             <h4 class="title"><a style="cursor: default;">Evde Sağlık Hizmetleri</a></h4>
             <p class="description">Sağlık kabinimizde verdiğimiz tüm hizmetlerimizi evinizde de yapabiliyoruz.</p>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="col-md-12 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="fa-solid fa-vial-circle-check"></i></div>
             <h4 class="title"><a style="cursor: default;">Çeşitli Test ve Tahliller</a></h4>
-            <p class="description">Tedavinizin teşhisi ve kontrolü için gerekli testlerinizi yapıyor, sizin için takip ediyoruz.</p>
+            <p class="description">Tedavinizin teşhisi ve kontrolü için gerekli testlerinizi yapıyor, sizin için takip
+              ediyoruz.</p>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="col-md-12 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="fa-solid fa-person-breastfeeding"></i></div>
             <h4 class="title"><a style="cursor: default;">Anne-Bebek Uyum Eğitimi</a></h4>
-            <p class="description">Tecrübeli çalışanlarımız sayesinde, bebeğinizle aranızdaki bağları birlikte kuvvetlendiriyoruz.</p>
+            <p class="description">Tecrübeli çalışanlarımız sayesinde, bebeğinizle aranızdaki bağları birlikte
+              kuvvetlendiriyoruz.</p>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="col-md-12 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="fa-solid fa-user-doctor"></i></div>
             <h4 class="title"><a style="cursor: default;">Acil Yardım Uygulamaları</a></h4>
-            <p class="description">Başta acil yardım uygulamaları olmak üzere çeşitli küçük cerrahi uygulamaları da yapıyoruz.</p>
+            <p class="description">Başta acil yardım uygulamaları olmak üzere çeşitli küçük cerrahi uygulamaları da
+              yapıyoruz.</p>
           </div>
         </div>
       </div>
@@ -72,15 +119,20 @@
     <div class="container">
       <div class="section-title">
         <h2>Hakkımızda</h2>
-        <p>Özel Esenler Sağlık Kabini olarak 2020 yılından beri alanında uzman çalışma arkadaşlarımız ile birlikte siz kıymetli hastalarımıza ister kabinimizde ister evinizde olmak üzere çeşitli sağlık hizmetleri sunmaktayız.</p>
+        <p>Özel Esenler Sağlık Kabini olarak 2020 yılından beri alanında uzman çalışma arkadaşlarımız ile birlikte siz
+          kıymetli hastalarımıza ister kabinimizde ister evinizde olmak üzere çeşitli sağlık hizmetleri sunmaktayız.</p>
       </div>
       <div class="row">
-        <div class="col-xl-6 col-lg-6 justify-content-center align-items-stretch position-relative">
+        <div style="margin-top: 2em;"
+          class="col-xl-6 col-lg-6 justify-content-center align-items-stretch position-relative">
           <img src="assets/img/about-2.JPG" class="img-fluid" alt="">
         </div>
         <div class="col-xl-6 col-lg-6 content icon-boxes d-flex flex-column align-items-stretch justify-content-center">
-          <h3>Özel Esenler Sağlık Kabini Sağlık Bakanlığı Onaylıdır.</h3>
-          <p class="fst-italic">Türkiye Cumhuriyeti Sağlık Bakanlığı Onaylı Özel Esenler Sağlık Kabini, değerli hastalarımızın sağlığı için alanında uzman olan sertifikalı sağlık çalışanlarıyla hizmet vermektedir. Gerekli tüm belgelerimiz bulunmaktadır, sağlığınızı gönül rahatlığıyla bizlere emanet edebilirsiniz. Amacımız her daim sizlere yüksek kalitede hizmet sunmaktır.</p>
+          <h3 style="margin-top: 1em;">Özel Esenler Sağlık Kabini Sağlık Bakanlığı Onaylıdır.</h3>
+          <p class="fst-italic">Türkiye Cumhuriyeti Sağlık Bakanlığı Onaylı Özel Esenler Sağlık Kabini, değerli
+            hastalarımızın sağlığı için alanında uzman olan sertifikalı sağlık çalışanlarıyla hizmet vermektedir.
+            Gerekli tüm belgelerimiz bulunmaktadır, sağlığınızı gönül rahatlığıyla bizlere emanet edebilirsiniz.
+            Amacımız her daim sizlere yüksek kalitede hizmet sunmaktır.</p>
           <ul>
             <li><i class="bi bi-check-circle"></i> Sağlık Bakanlığı Onaylı</li>
             <li><i class="bi bi-check-circle"></i> Alanında Uzman Sertifikalı Sağlık Çalışanları</li>
@@ -97,31 +149,35 @@
   <section id="counts" class="counts">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-12">
           <div class="count-box">
             <i class="fa-solid fa-bed-pulse"></i>
-            <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"
+              class="purecounter"></span>
             <p>Her hastadan sonra özenle sterilize edilen <strong>Yatak Sayımız</strong></p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+        <div class="col-lg-3 col-md-12">
           <div class="count-box">
             <i class="far fa-hospital"></i>
-            <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1"
+              class="purecounter"></span>
             <p>İster kabinimizde ister evinizde sizlere sunduğumuz <strong>Hizmet Sayımız</strong></p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+        <div class="col-lg-3 col-md-12">
           <div class="count-box">
             <i class="fa-solid fa-location-dot"></i>
-            <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
+              class="purecounter"></span>
             <p>Evde sağlık hizmeti verdiğimiz <strong>İlçe Sayımız</strong></p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+        <div class="col-lg-3 col-md-12">
           <div class="count-box">
             <i class="fa-solid fa-business-time"></i>
-            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1"
+              class="purecounter"></span>
             <p><strong>24 saat kesintisiz hizmetimiz ile</strong> sağlığınızı önemsiyoruz!</p>
           </div>
         </div>
@@ -133,133 +189,189 @@
     <div class="container">
       <div class="section-title">
         <h2>Hizmetlerimiz</h2>
-        <p>Sizleri önemsiyoruz! Bu doğrultuda her geçen gün genişlettiğimiz hizmet ağımızı sizlere tanıtmak isteriz. Aşağıdaki hizmetlerimizi ister kabinimizde ister evinizde, yani siz nerede isterseniz orada gerçekleştirebiliriz.</p>
+        <p>Sizleri önemsiyoruz! Bu doğrultuda her geçen gün genişlettiğimiz hizmet ağımızı sizlere tanıtmak isteriz.
+          Aşağıdaki hizmetlerimizi ister kabinimizde ister evinizde, yani siz nerede isterseniz orada
+          gerçekleştirebiliriz.</p>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-syringe"></i></div>
-            <h4><a href="">Enjeksiyon (İğne)</a></h4>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/enjeksiyon.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Enjeksiyon (İğne)</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
-            <h4><a href="">Serum Takmak</a></h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/serum-takmak.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Serum Takmak</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-bandage"></i></div>
-            <h4><a href="">Pansuman Yapmak</a></h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/pansuman-yapmak.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Pansuman Yapmak</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-stethoscope"></i></div>
-            <h4><a href="">Tansiyon Ölçümü ve Takibi</a></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/tansiyon-olcumu-ve-takibi.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Tansiyon Ölçümü ve Takibi</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-hand-dots"></i></div>
-            <h4><a href="">Dikiş Atma/Alma</a></h4>
-            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/dikis-atma-alma.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Dikiş Atma/Alma</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
-            <h4><a href="">Stoma Değişimi</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/stoma-degisimi.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Stoma Değişimi</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-person-pregnant"></i></div>
-            <h4><a href="">Gebelik Testi</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/gebelik-testi.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Gebelik Testi</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
-            <h4><a href="">Şeker Takibi</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/seker-takibi.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Şeker Takibi</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-vial-circle-check"></i></div>
-            <h4><a href="">Kan Alma, İdrar ve Gaita Tahlilleri</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/kan-alma-idrar-ve-gaita-tahlilleri.jpg" height="150"
+              style="border-radius: 0.25em;" class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Kan Alma, İdrar ve Gaita Tahlilleri</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-mask-ventilator"></i></div>
-            <h4><a href="">Oksijen Takibi</a></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/oksijen-takibi.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Oksijen Takibi</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
-            <h4><a href="">Sonda Takma</a></h4>
-            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/sonda-takma.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Sonda Takma</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
-            <h4><a href="">Beslenme Sondası Takma</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/beslenme-sondasi-takma.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Beslenme Sondası Takma</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-person-breastfeeding"></i></div>
-            <h4><a href="">Anne-Bebek Uyumu ve Emzirme Eğitimi</a></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/anne-bebek-uyumu-ve-emzirme-egitimi.jpg" height="150"
+              style="border-radius: 0.25em;" class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Anne-Bebek Uyumu ve Emzirme Eğitimi</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-user-doctor"></i></div>
-            <h4><a href="">Küçük Cerrahi Uygulamalar</a></h4>
-            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/kucuk-cerrahi-uygulamalar.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Küçük Cerrahi Uygulamalar</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
-            <h4><a href="">Lavman</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/lavman.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Lavman</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-truck-medical"></i></div>
-            <h4><a href="">Acil Yardım Uygulamaları</a></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/acil-yardim-uygulamalari.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Acil Yardım Uygulamaları</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-weight-scale"></i></div>
-            <h4><a href="">Hemoglobin Ölçümü</a></h4>
-            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/hemoglobin-olcumu.jpg" height="150" style="border-radius: 0.25em;"
+              class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Hemoglobin Ölçümü</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="fa-solid fa-user-nurse"></i></div>
-            <h4><a href="">Ameliyat Sonrası Hemşire Bakımı</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="card icon-box" style="width: 18rem; margin-bottom: 3em;">
+            <img src="../assets/img/services/ameliyat-sonrasi-hemsire-bakimi.jpg" height="150"
+              style="border-radius: 0.25em;" class="card-img-top" alt="...">
+            <div class="card-body" style="padding-bottom: 0;">
+              <h4 class="card-title title">Ameliyat Sonrası Hemşire Bakımı</h4>
+              <p class="card-text description">Burada yapılacak işlemle ilgili bilgi verilebilir.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -270,61 +382,62 @@
     <div class="container">
       <div class="section-title">
         <h2>Galeri</h2>
-        <p>Sizler için özenle dizayn ettiğimiz Özel Esenler Sağlık Kabini, hem konforunuz hem de sağlığınız düşünülerek hazırlanmıştır.</p>
+        <p>Sizler için özenle dizayn ettiğimiz Özel Esenler Sağlık Kabini, hem konforunuz hem de sağlığınız düşünülerek
+          hazırlanmıştır.</p>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row g-0">
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-6">
           <div class="gallery-item">
             <a href="../assets/img/gallery/gallery1.jpg" class="galelry-lightbox">
               <img src="../assets/img/gallery/gallery1.jpg" alt="" class="img-fluid">
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-6">
           <div class="gallery-item">
             <a href="../assets/img/gallery/gallery2.jpg" class="galelry-lightbox">
               <img src="../assets/img/gallery/gallery2.jpg" alt="" class="img-fluid">
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-6">
           <div class="gallery-item">
             <a href="../assets/img/gallery/gallery3.jpg" class="galelry-lightbox">
               <img src="../assets/img/gallery/gallery3.jpg" alt="" class="img-fluid">
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-6">
           <div class="gallery-item">
             <a href="../assets/img/gallery/gallery4.jpg" class="galelry-lightbox">
               <img src="../assets/img/gallery/gallery4.jpg" alt="" class="img-fluid">
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-6">
           <div class="gallery-item">
             <a href="../assets/img/gallery/gallery5.jpg" class="galelry-lightbox">
               <img src="../assets/img/gallery/gallery5.jpg" alt="" class="img-fluid">
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-6">
           <div class="gallery-item">
             <a href="../assets/img/gallery/gallery6.jpg" class="galelry-lightbox">
               <img src="../assets/img/gallery/gallery6.jpg" alt="" class="img-fluid">
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-6">
           <div class="gallery-item">
             <a href="../assets/img/gallery/gallery7.jpg" class="galelry-lightbox">
               <img src="../assets/img/gallery/gallery7.jpg" alt="" class="img-fluid">
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-6">
           <div class="gallery-item">
             <a href="../assets/img/gallery/gallery8.jpg" class="galelry-lightbox">
               <img src="../assets/img/gallery/gallery8.jpg" alt="" class="img-fluid">
@@ -342,39 +455,44 @@
         <p>Özel Esenler Sağlık Kabini'ne ulaşmak için çok fazla seçeneğiniz var.</p>
       </div>
     </div>
-    <div>
-      <iframe style="border:0; width: 100%; height: 350px;" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Nine%20Hatun%2C%20Mercan%20Cd.%20No%3A29%2FA%2C%2034220%20Esenler%2F%C4%B0stanbul+(%C3%96zel%20Esenler%20Sa%C4%9Fl%C4%B1k%20Kabini)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" allowfullscreen></iframe>
+    <div class="container text-center">
+      <iframe style="border:0; width: 100%; height: 350px;"
+        src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Nine%20Hatun%2C%20Mercan%20Cd.%20No%3A29%2FA%2C%2034220%20Esenler%2F%C4%B0stanbul+(%C3%96zel%20Esenler%20Sa%C4%9Fl%C4%B1k%20Kabini)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed"
+        frameborder="0" allowfullscreen></iframe>
+      <a type="button" class="btn btn-primary map-button-text" href="https://www.google.com/maps/place/Nine+Hatun,+%C3%96zel+Esenler+Sa%C4%9Fl%C4%B1k+Kabini,+Mercan+Cd.+No:29%2FA,+34220+Esenler%2F%C4%B0stanbul/@41.0365035,28.8792299,17z/data=!4m6!3m5!1s0x14cabbfba56e6f69:0xd3a9025b1c8ab3af!8m2!3d41.0365035!4d28.8792299!16s%2Fg%2F11txrqbbr7">
+        <span class="btn btn-primary btn-lg btn-block p-0"></span> Haritalarda Gör
+      </a>
     </div>
     <div class="container">
       <div class="row mt-5">
         <div class="col-lg-12">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
               <div class="info-box">
                 <i class="bx bx-map"></i>
                 <h3>Açık Adresimiz</h3>
                 <p>Nine Hatun Mah. Mercan Cad. No: 29/A - Esenler/İstanbul</p>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
               <div class="info-box">
                 <i class='bx bxl-instagram'></i>
                 <h3>Instagram Adresimiz</h3>
-                <p>esenlersaglikkabini</p>
+                <a href="https://instagram.com/esenlersaglikkabini">esenlersaglikkabini</a>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="info-box mt-4">
+            <div class="col-lg-6 col-md-12">
+              <div class="info-box">
                 <i class='bx bxl-whatsapp'></i>
                 <h3>Whatsapp İletişim Hattımız</h3>
-                <p>+90 553 967 55 17</p>
+                <a href="https://wa.me/+905539675517?">0 553 967 55 17</a>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="info-box mt-4">
+            <div class="col-lg-6 col-md-12">
+              <div class="info-box">
                 <i class="bx bx-phone-call"></i>
                 <h3>Telefon Numaramız</h3>
-                <p>0 212 508 20 21</p>
+                <a href="tel:+902125082021">0 212 508 20 21</a>
               </div>
             </div>
           </div>
@@ -388,7 +506,7 @@
   <div class="container py-4">
     <div class="me-md-auto text-center">
       <div class="copyright">
-        <strong>&copy; <span>Özel Esenler Sağlık Kabini</span></strong>. Tüm Hakları Saklıdır.
+        <strong>&copy; <span>Özel Esenler Sağlık Kabini</span></strong>. <br> Tüm Hakları Saklıdır.
       </div>
       <div class="credits">
         <a href="https://fatihkurekci.com/">Fatih Kürekçi</a>
@@ -397,4 +515,5 @@
   </div>
 </footer>
 
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+    class="bi bi-arrow-up-short"></i></a>
