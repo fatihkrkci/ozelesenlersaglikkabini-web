@@ -1574,6 +1574,12 @@ section {
   }
 }
 
+@media (min-width: 1024px) {
+  .carousel-caption{
+    padding: 1.5em !important;
+  }
+}
+
 @media (min-width: 768px) {
   
   #header .logo {
